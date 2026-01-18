@@ -41,13 +41,17 @@ body {
     margin-bottom: 30px;
     color: #757575;
 }
+.text-center {
+    text-align: center;
+    margin-top: 50px;
+}
 
 /* main style */
 header {
     background-color: #ffecde;
     background-image: url(/images/developer.png), url(/images/header_bg.png);
     background-repeat: no-repeat;
-    background-position: top left, bottom right;
+    background-position: 23px 38px, bottom right;
     padding-top: 50px;
 }
 nav {
@@ -208,4 +212,50 @@ nav .menu button {
 }
 .resume-container hr {
     margin: 30px 0;
+}
+.resume .btn-cv {
+    
+}
+
+
+footer {
+    margin-top: 130px;
+    background-color: #ffecde;
+    padding: 130px 0;
+}
+.footer-container {
+    width: 71%;
+    max-width: 1140px;
+    margin: 0 auto;
+    display: flex;
+    gap: 116px;
+}
+.footer-container .social {
+    max-width: 562px;
+}
+.footer-container h2 {
+    font-size: 35px;
+    font-weight: bold;
+    color: #181818;
+    margin-bottom: 20px;
+}
+.footer-container .social p {
+    font-size: 16px;
+    color: #757575;
+    line-height: 28px;
+    margin-bottom: 30px;
+}
+.footer-container .icons a{
+    margin-right: 24px;
+}
+.footer-container form input[type="text"],
+.footer-container form input[type="email"],
+.footer-container form textarea {
+    width: 461px;
+    padding: 18px 31px;
+    margin-bottom: 24px;
+    border: none;
+    border-radius: 5px;
+    outline: none;
+    color: #FD6E0A;
 }
